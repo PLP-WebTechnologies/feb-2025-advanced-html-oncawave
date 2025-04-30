@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Implementation</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+        <li>Fourth Item</li>
+        <li>Fifth Item</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://unsplash.com/photos/a-person-walks-on-a-street-in-sunlight-POTR4so7Nw4" alt="Pexels Sample Image" width="400">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kamau Demand</td>
+                <td>1076 Mombasa</td>
+                <td>+1234567890</td>
+                <td>kamu@test.com</td>
+            </tr>
+            <tr>
+                <td>Wanji Irene</td>
+                <td>345 Nakuru</td>
+                <td>+0987654321</td>
+                <td>Wanji@test.com</td>
+            </tr>
+            <tr>
+                <td>Milan Kemunto</td>
+                <td>789 Nyamira</td>
+                <td>+1122334455</td>
+                <td>milan@test.com</td>
+            </tr>
+            <tr>
+                <td>Lisa Atieno</td>
+                <td>234 Kisumu</td>
+                <td>+5566778899</td>
+                <td>lisa@test.com</td>
+            </tr>
+            <tr>
+                <td>Michael Wambua</td>
+                <td>567 Machakos</td>
+                <td>+6677889900</td>
+                <td>michael@test.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown Selection -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">-- Choose --</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="design" name="interest" value="design">
+        <label for="design">Design</label>
+        <input type="checkbox" id="gaming" name="interest" value="gaming">
+        <label for="gaming">Gaming</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia: Audio & Video -->
+    <h2>Audio & Video</h2>
+
+    <!-- Audio -->
+    <audio controls>
+        <source src="sample-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <video width="400" controls>
+        <source src="sample-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+</body>
+</html>
+
